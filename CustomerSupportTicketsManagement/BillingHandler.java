@@ -1,5 +1,3 @@
-package src.CustomerSupportTicketsManagement;
-
 public class BillingHandler extends TicketHandler{
 
     public BillingHandler(TicketHandler handler) {

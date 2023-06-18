@@ -1,5 +1,3 @@
-package src.CustomerSupportTicketsManagement;
-
 public abstract class TicketHandler {
     private TicketHandler next;
 

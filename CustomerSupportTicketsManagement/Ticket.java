@@ -1,5 +1,3 @@
-package src.CustomerSupportTicketsManagement;
-
 public class Ticket {
     private String id;
     private boolean billed;

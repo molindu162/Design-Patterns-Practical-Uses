@@ -1,5 +1,3 @@
-package src.CustomerSupportTicketsManagement;
-
 public class TechnicalSupportHandler extends TicketHandler{
 
 

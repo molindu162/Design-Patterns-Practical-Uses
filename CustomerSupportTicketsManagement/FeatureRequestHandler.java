@@ -1,5 +1,3 @@
-package src.CustomerSupportTicketsManagement;
-
 public class FeatureRequestHandler extends TicketHandler{
 
     public FeatureRequestHandler(TicketHandler handler) {

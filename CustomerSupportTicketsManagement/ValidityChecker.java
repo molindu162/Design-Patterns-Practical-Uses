@@ -1,5 +1,3 @@
-package src.CustomerSupportTicketsManagement;
-
 public class ValidityChecker {
     private TicketHandler handler;
 
