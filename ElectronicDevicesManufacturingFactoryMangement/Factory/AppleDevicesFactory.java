@@ -1,9 +1,8 @@
-package Factories;
-
+package Factory;
 import Builders.Iphone;
 import Builders.PhoneBuilder;
 
-public abstract class PhoneFactory {
-
+public abstract class AppleDevicesFactory extends PhoneFactory {
+    @Override
     public abstract Iphone createIphone(PhoneBuilder builder);
 }

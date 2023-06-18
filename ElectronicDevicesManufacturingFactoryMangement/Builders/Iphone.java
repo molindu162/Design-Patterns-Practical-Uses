@@ -1,8 +1,6 @@
 package Builders;
 
-public class Iphone {
-
-
+public class Iphone extends Phone{
     private String processor;
     private int displaySize;
     private int cameraPixels;
