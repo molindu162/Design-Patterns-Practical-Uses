@@ -4,35 +4,30 @@ import Builders.Phone;
 
 public abstract class Handler {
     private Handler next;
-    private boolean phoneEligible = true;
 
     public Handler(Handler next){
         this.next = next;
     }
 
-    public void handle(Phone phone){
+    public boolean handle(Phone phone){
         if (phone == null) {
-            phoneEligible = false;
-            return;
+            return false;
         }
 
         if (!doHandle(phone)) {
-            phoneEligible = false;
-            return;
+            System.out.println(this.toString() + " failed");
+            return false;
         }
 
         if (next == null) {
             System.out.println(this.toString() + " Handled successfully");
-            return;
+            return true;
         }
 
         System.out.println(this.toString() + " Handled successfully");
-        next.handle(phone);
+        return next.handle(phone);
     }
 
-    public boolean isPhoneEligible(){
-        return phoneEligible;
-    }
 
     public abstract boolean doHandle(Phone phone);
 }
