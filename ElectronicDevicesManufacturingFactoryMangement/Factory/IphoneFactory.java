@@ -18,7 +18,7 @@ public class IphoneFactory extends AppleDevicesFactory{
         Iphone iphone = builder.buildIphone();
 
         iphone.setHasPhysicalDamage(false);
-        iphone.setFunctioningCorrectly(false);
+        iphone.setFunctioningCorrectly(true);
         iphone.setSoftwareValidity(true);
 
         SoftwareValidationHandler softwareValidationHandler = new SoftwareValidationHandler(null);
