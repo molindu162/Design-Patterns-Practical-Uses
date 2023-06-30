@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/ChainOfResponsibilityDemo" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HomeAutomationSystem" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PizzaRestaurantManagement" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PaymentProcessingSystem" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/VideoPlayerApplication" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/out" />
