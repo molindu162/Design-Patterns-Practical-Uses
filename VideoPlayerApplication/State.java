@@ -1,3 +1,5 @@
 public interface State {
-    void execute();
+    void play();
+    void pause();
+    void stop();
 }

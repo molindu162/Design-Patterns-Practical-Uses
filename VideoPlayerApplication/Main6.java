@@ -1,7 +1,9 @@
 public class Main6 {
     public static void main(String[] args){
-        PlayingState playingState = new PlayingState();
-        VideoPlayer videoPlayer = new VideoPlayer(playingState);
-        videoPlayer.render();
+        VideoPlayer player = new VideoPlayer();
+        player.play();
+        player.pause();
+        player.stop();
+        player.play();
     }
 }
